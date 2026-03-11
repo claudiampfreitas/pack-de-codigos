@@ -1,0 +1,55 @@
+﻿ul li {
+	display:inline;
+    }
+
+ul li a {
+	font-family:arial;
+	background:deeppink;
+	color:#000000;
+	border: thin solid #000000;
+	text-decoration:none;
+	padding:6px;
+    }
+
+a:hover{
+	background:#228b22;
+	font-family:comic sans ms;
+	color:#fff;
+	border:dotted 2px red;
+    }
+
+ul {
+width:100%;
+list-style: none;
+position: relative;}
+
+ul li {
+text-align: center;
+width: 24%;
+float: left;}
+
+a {
+padding: 15px;
+display: block;
+text-decoration: none;
+text-align: center;
+background-color: #4682B4;
+color: #fff;}
+
+ul ul {
+position: absolute;
+visibility: hidden;}
+
+ul li:hover ul {
+visibility: visible;}
+
+a:hover {
+background-color: #00BFFF;
+color: #064b31;}
+
+ul ul li {
+float: none;
+border-bottom: solid 1px #ccc;}
+
+ul ul li a {
+background-color: #4682B4;}

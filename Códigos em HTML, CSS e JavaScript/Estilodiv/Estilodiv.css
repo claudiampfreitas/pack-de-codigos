@@ -1,0 +1,17 @@
+﻿body {
+	width:100%;
+	height:100%;
+	margin:0;
+}
+div{
+	font-weight:bold;
+	font-size:25px;
+}
+#menu{padding:20px;
+background-color:lightblue;}
+#banner{padding:40px;
+background-color:indianred;}
+#conteúdo{padding:80px;
+background-color:khaki;}
+#rodape{padding:30px;
+background-color:lightgreen;}

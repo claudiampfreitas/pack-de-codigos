@@ -1,0 +1,16 @@
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JokenpoGame\JokenpoGame\bin\Debug\JokenpoGame.exe.config
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JokenpoGame\JokenpoGame\bin\Debug\JokenpoGame.exe
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JokenpoGame\JokenpoGame\bin\Debug\JokenpoGame.pdb
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.csprojResolveAssemblyReference.cache
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.MainForm.resources
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.csproj.GenerateResource.Cache
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.exe
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.pdb
+E:\Nova pasta\JokenpoGame\JokenpoGame\bin\Debug\JokenpoGame.exe.config
+E:\Nova pasta\JokenpoGame\JokenpoGame\bin\Debug\JokenpoGame.exe
+E:\Nova pasta\JokenpoGame\JokenpoGame\bin\Debug\JokenpoGame.pdb
+E:\Nova pasta\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.csprojResolveAssemblyReference.cache
+E:\Nova pasta\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.MainForm.resources
+E:\Nova pasta\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.csproj.GenerateResource.Cache
+E:\Nova pasta\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.exe
+E:\Nova pasta\JokenpoGame\JokenpoGame\obj\Debug\JokenpoGame.pdb

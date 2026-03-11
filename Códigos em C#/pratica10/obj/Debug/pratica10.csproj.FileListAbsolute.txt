@@ -1,0 +1,21 @@
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\pratica10\pratica10\bin\Debug\pratica10.exe
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\pratica10\pratica10\bin\Debug\pratica10.pdb
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\pratica10\pratica10\obj\Debug\pratica10.csprojResolveAssemblyReference.cache
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\pratica10\pratica10\obj\Debug\pratica10.FrmPratica10.resources
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\pratica10\pratica10\obj\Debug\pratica10.csproj.GenerateResource.Cache
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\pratica10\pratica10\obj\Debug\pratica10.exe
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\pratica10\pratica10\obj\Debug\pratica10.pdb
+C:\Users\claud\Documents\pratica10\bin\Debug\pratica10.exe
+C:\Users\claud\Documents\pratica10\bin\Debug\pratica10.pdb
+C:\Users\claud\Documents\pratica10\obj\Debug\pratica10.csprojResolveAssemblyReference.cache
+C:\Users\claud\Documents\pratica10\obj\Debug\pratica10.FrmPratica10.resources
+C:\Users\claud\Documents\pratica10\obj\Debug\pratica10.csproj.GenerateResource.Cache
+C:\Users\claud\Documents\pratica10\obj\Debug\pratica10.exe
+C:\Users\claud\Documents\pratica10\obj\Debug\pratica10.pdb
+E:\Nova pasta\pratica10\bin\Debug\pratica10.exe
+E:\Nova pasta\pratica10\bin\Debug\pratica10.pdb
+E:\Nova pasta\pratica10\obj\Debug\pratica10.csprojResolveAssemblyReference.cache
+E:\Nova pasta\pratica10\obj\Debug\pratica10.FrmPratica10.resources
+E:\Nova pasta\pratica10\obj\Debug\pratica10.csproj.GenerateResource.Cache
+E:\Nova pasta\pratica10\obj\Debug\pratica10.exe
+E:\Nova pasta\pratica10\obj\Debug\pratica10.pdb

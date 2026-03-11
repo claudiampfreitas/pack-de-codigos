@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Formulário de cadastro</title>
+<link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+<center><h1><b>Formulário de cadastro</b></h1></center>
+<fieldset>
+     <legend><b>Dados pessoais</b></legend>
+     <label for="InputNome">Nome:</label>
+<Input type="text" id="InputNome" size="50" /><br /><br />
+<label for="InputEmail">Email:</label>
+<Input type="email" id="InputEmail" size="60" /><br /><br />
+<label for="InputCPF">CPF:</label>
+<input type="text" id="InputCPF" size="14" placeholder="Ex: xxx.xxx.xxx-xx"/><br /><br />
+<label for="InputTelefone">Telefone:</label>
+<input type="text" id="InputTelefone" size="15" placeholder="Ex: (xx) xxxxx-xxxx"/><br /><br />
+<label for="InputCEP">CEP:</label>
+<input type="text" id="InputCEP" size="9" placeholder="Ex: xxxxx-xxx"/><br /><br />
+<label for="InputEndereco">Endereço:</label>
+<Input type="text" id="InputEndereco" size="70" /><br /><br />
+<label for="InputNumero">Nº:</label>
+<Input type="text" id="InputNumero" size="4" /><br /><br />
+<label for="InputComplemento">Complemento:</label>
+<Input type="text" id="InputComplemento" size="10" /><br /><br />
+<label for="InputBairro">Bairro:</label>
+<Input type="text" id="InputBairro" size="30" /><br /><br />
+<label for="InputCidade">Cidade:</label>
+<Input type="text" id="InputCidade" size="30" /><br /><br />
+<label>Estado:
+     <select name="estado">
+	 <option value="selecione"> Selecione </option>
+	 <option value="acre"> Acre </option>
+	 <option value="alagoas"> Alagoas </option>
+	 <option value="amapá"> Amapá </option>
+	 <option value="amazonas"> Amazonas </option>
+	 <option value="bahia"> Bahia </option>
+	 <option value="ceará"> Ceará </option>
+	 <option value="distritofederal"> Distrito Federal </option>
+	 <option value="espíritosanto"> Espírito Santo </option>
+	 <option value="goiás"> Goiás </option>
+	 <option value="maranhão"> Maranhão </option>
+	 <option value="matogrosso"> Mato Grosso </option>
+	 <option value="matogrossodosul"> Mato Grosso do Sul </option>
+	 <option value="minasgerais"> Minas Gerais </option>
+	 <option value="pará"> Pará </option>
+	 <option value="paraíba"> Paraíba </option>
+	 <option value="paraná"> Paraná </option>
+	 <option value="pernambuco"> Pernambuco </option>
+	 <option value="piauí"> Piauí </option>
+	 <option value="riodejaneiro"> Rio de Janeiro </option>
+	 <option value="riograndedonorte"> Rio Grande do Norte </option>
+	 <option value="riograndedosul"> Rio Grande do Sul </option>
+	 <option value="rondônia"> Rondônia </option>
+	 <option value="roraima"> Roraima </option>
+	 <option value="santacatarina"> Santa Catarina </option>
+	 <option value="sãopaulo"> São Paulo </option>
+	 <option value="sergipe"> Sergipe </option>
+	 <option value="tocantins"> Tocantins </option>
+     </select>
+     </label>
+	 <br /><br />
+<label for="InputPais">País:</label>
+<Input type="text" id="InputPais" size="30" /><br />
+	 <p>Qual sua idade?</p>
+    0 a 10 anos: <input type="radio" name="idade" value="0 a 10 anos"><br/>
+    11 a 20 anos: <input type="radio" name="idade" value="11 a 20 anos"><br/>
+    21 a 30 anos: <input type="radio" name="idade" value="21 a 30 anos"><br/>
+    31 a 40 anos: <input type="radio" name="idade" value="31 a 40 anos"><br/>
+    41 a 50 anos: <input type="radio" name="idade" value="41 a 50 anos"><br/>
+    Mais de 50 anos: <input type="radio" name="idade" value="Mais de 50 anos"><br/>
+ <p>Qual é o seu estado civil?</p>
+    <select name="select">
+	<option value="Selecione">Selecione</option>
+    <option value="Solteiro">Solteiro</option>
+    <option value="Casado">Casado</option>
+    <option value="Divorciado">Divorciado</option>
+    <option value="Viúvo">Viúvo</option>
+    </select>
+	<p>Quantos filhos você possui?</p>
+    Não possui: <input type="radio" name="idade" value="não possui"><br/>
+    1 filho: <input type="radio" name="idade" value="1 filho"><br/>
+    2 filhos: <input type="radio" name="idade" value="2 filhos"><br/>
+    3 filhos: <input type="radio" name="idade" value="3 filhos"><br/>
+    Mais de 3 filhos: <input type="radio" name="idade" value="Mais de 3 filhos"><br/>
+	<br />
+</fieldset>
+<fieldset>
+     <legend><b>Dados profissionais</b></legend>
+     <label>Escolaridade:
+     <select name="escolaridade">
+	 <option value="sel"> Selecione </option>
+	 <option value="ef"> Ensino Fundamental </option>
+          <option value="em"> Ensino Médio </option>
+          <option value="nt"> Nível Técnico </option>
+          <option value="ns"> Nível Superior </option>
+     </select>
+     </label>
+     <br /><br />
+     <label>Área de atuação
+          <input type="radio" name="cargo" value="1" > Gerência
+          <input type="radio" name="cargo" value="2" > Financeiro
+          <input type="radio" name="cargo" value="3" > Recepção
+		  <input type="radio" name="cargo" value="4" > Recursos Humanos
+		  <input type="radio" name="cargo" value="5" > Administrativo
+		  <input type="radio" name="cargo" value="6" > Serviços Gerais
+		  <input type="radio" name="cargo" value="7" > Outros
+     </label>
+</fieldset>
+<fieldset>
+<legend><b>Pesquisa de satisfação</b></legend>
+<p>Qual sua opinião sobre este formulário??</p>
+    Ótimo: <input type="checkbox" name="otimo" value="otimo"><br/>
+    Muito bom: <input type="checkbox" name="muitobom" value="muitobom"><br/>
+    Bom: <input type="checkbox" name="bom" value="bom"><br />
+    Regular: <input type="checkbox" name="regular" value="regular"><br/>
+    Ruim: <input type="checkbox" name="ruim" value="ruim""><br/>
+    Muito ruim: <input type="checkbox" name="muitruim" value="muitoruim"><br/>
+	Péssimo: <input type="checkbox" name="pessimo" value="pessimo"><br/>
+	</fieldset>
+	<p><b>Observações:</b><textarea name="obs"
+                         cols="50" rows="10"></textarea></p>
+<input type="button" value="Visualizar" />
+<input type="submit" value="Gravar" />
+<input type ="reset" value="Limpar" />

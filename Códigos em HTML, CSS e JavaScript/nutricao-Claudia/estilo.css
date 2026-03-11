@@ -1,0 +1,46 @@
+﻿body{background:linear-gradient(to top, WhiteSmoke, PaleGoldenrod, PaleTurquoise);}
+{background-color: #3CBC8D;
+color:#fff;
+font-size: 16px;}
+
+input[type=text]: focus{background-color: lightgrey;
+border: 30px solid #555;}
+
+p{font-family:arial;
+	font-size:14px;
+	text-align:justify;
+	text-indent:50px;
+	color:#000;}
+	
+	h1,h2,title{color:#000;
+	font-family:arial;}
+	
+img {
+border-left: 3px solid #4B0082;
+border-right: 3px solid #4B0082;
+border-top: 3px solid #4B0082;
+border-bottom: 3px solid #4B0082;
+}
+
+table {
+border-left: 3px solid LightCoral;
+border-right: 3px solid LightCoral;
+border-top: 3px solid LightCoral;
+border-bottom: 3px solid LightCoral;
+background-color: white;
+}
+
+.menu{
+list-style:none;
+border:1px solid #c0c0c0;
+float:top;
+background-color:#F5FFFA;
+}
+
+.menu li  ul{
+position:absolute;
+top:25px;
+left:0;
+background-color:#F0E68C;
+display:none;
+}

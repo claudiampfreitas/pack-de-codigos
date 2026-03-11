@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Game</title>
+<link rel="stylesheet" href="game.css" >
+<script type="text/javascript" src="game.js"></script>
+</head>
+<body onload="GameControl.createGame()">
+	<div  id="main" class="main">
+			<center>	
+			<div id="control">
+			<input type="button"  class="button_game" value="Reiniciar" onclick="GameControl.createGame()"/> 
+			</div>
+			<div id="score">			
+			</div>			
+			<div id="game">		
+			</div>
+			</center>
+	</div>
+	<audio preload src="resources/aku-aku.mp3" id="somAcerto"></audio>
+	<audio preload src="resources/som-erro.mp3" id="somErro"></audio>
+</body>
+</html>

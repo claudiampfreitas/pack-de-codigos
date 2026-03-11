@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JS - POLIMIG</title>
+<style>
+img.um{width:400px;
+height:300px;}
+img{width:200px;
+height:200px;}
+h1
+{margin:5px;}
+</style>
+</head>
+<body>
+<h1 align="center"><b>Passe o mouse sobre as imagens</b></h1>
+<table border="1" align="center">
+<tr>
+<td colspan="3" align="center"><img class="um" src="Imagens/01.jpg" name="foto"></td>
+</tr>
+<tr>
+<td><img src="Imagens/02.jpg" onMouseOver="trocaFoto('Imagens/02.jpg')" onMouseOut="voltaFoto()"></td>
+<td><img src="Imagens/03.jpg" onMouseOver="trocaFoto('Imagens/03.jpg')" onMouseOut="voltaFoto()"></td>
+<td><img src="Imagens/04.jpg" onMouseOver="trocaFoto('Imagens/04.jpg')" onMouseOut="voltaFoto()"></td>
+</tr>
+</table>
+<script language="JavaScript">
+function trocaFoto(fotox){
+document.images["foto"].src=fotox
+}//fim da função trocaFotos
+//Função que mostra a foto padrão após o mouse sair da foto exibida
+function voltaFoto(){
+document.images["foto"].src="Imagens/01.jpg"
+}//fim da função voltaFoto
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+
+tr
+{
+background-color:#000080;
+}
+
+table
+{
+ background: linear-gradient(#DA70D6, #87CEFA);
+ height:70%;
+ width:30%;
+ padding:15px;
+ padding-top:15px;
+}
+
+input
+{
+	height:70px;
+	width:85px;
+	font-size:30px;
+	margin:5px;
+	font-weight:bold;
+	background-color:#B0C4DE;
+}
+
+input.display
+{
+    width:96%;
+	margin:5px;
+    height:80px;
+    background-color:#1C1C1C;
+    color:#ffffff;
+    font-size:40px;
+}
+
+input.igual
+{
+    width:88%;
+	margin:5px;
+}    

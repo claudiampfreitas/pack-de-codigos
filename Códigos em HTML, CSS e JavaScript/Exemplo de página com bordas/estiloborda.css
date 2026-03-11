@@ -1,0 +1,13 @@
+p {
+border-style: dotted;
+border-style: solid;
+border-style: double;
+border-style: dashed;
+}
+p {
+border-left: 6px solid red;
+border-right: 6px solid blue;
+border-top: 6px solid yellow;
+border-bottom: 6px solid green;
+background-color: lightgrey;
+}

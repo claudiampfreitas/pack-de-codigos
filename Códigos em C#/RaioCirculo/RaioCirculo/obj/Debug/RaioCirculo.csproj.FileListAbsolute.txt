@@ -1,0 +1,18 @@
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.exe.config
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.exe
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.pdb
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.csprojResolveAssemblyReference.cache
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.exe
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.pdb
+D:\Projetos para concluir\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.exe.config
+D:\Projetos para concluir\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.exe
+D:\Projetos para concluir\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.pdb
+D:\Projetos para concluir\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.csprojResolveAssemblyReference.cache
+D:\Projetos para concluir\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.exe
+D:\Projetos para concluir\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.pdb
+E:\Nova pasta\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.exe.config
+E:\Nova pasta\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.exe
+E:\Nova pasta\RaioCirculo\RaioCirculo\bin\Debug\RaioCirculo.pdb
+E:\Nova pasta\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.csprojResolveAssemblyReference.cache
+E:\Nova pasta\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.exe
+E:\Nova pasta\RaioCirculo\RaioCirculo\obj\Debug\RaioCirculo.pdb

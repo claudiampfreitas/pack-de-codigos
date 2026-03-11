@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<script language="JavaScript">
+	var nome=window.prompt("Digite o nome do aluno");
+	matricula=window.prompt("Qual é a matrícula do aluno?");
+	disciplina=window.prompt("Qual é a disciplina avaliada?");
+document.write("O nome do aluno é: "+nome+"<br />");
+document.write("A matrícula do aluno é: "+matricula+"<br />");
+document.write("A disciplina avaliada é: "+disciplina+"<br />");
+	nota1=window.prompt("Digite a primeira nota do primeiro bimestre");
+    nota2=window.prompt("Digite a segunda nota do primeiro bimestre");
+soma1=parseFloat(nota1)+parseFloat(nota2);
+document.write("A soma das notas do primeiro bimestre: "+nota1+"+"+nota2+"="+soma1+"<br />");
+var nota3=window.prompt("Digite a primeira nota do segundo bimestre");
+    nota4=window.prompt("Digite a segunda nota do segundo bimestre");
+soma2=parseFloat(nota3)+parseFloat(nota4);
+document.write("A soma das notas do segundo bimestre: "+nota3+"+"+nota4+"="+soma2+"<br />");
+somafinal=parseFloat(soma1)+parseFloat(soma2);
+document.write("A soma final: "+soma1+"+"+soma2+"="+somafinal+"<br />");
+media=(soma1+soma2)/2;
+document.write("A média dos dois bimestres: "+soma1+"+"+soma2+"/"+2+"="+media+"<br />");
+</script>
+</body>
+</html>

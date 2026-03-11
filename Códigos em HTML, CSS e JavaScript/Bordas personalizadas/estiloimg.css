@@ -1,0 +1,54 @@
+﻿
+body > div {
+            width:300px;
+            height:250px;
+            background:#FFB90F;
+            transition:all 0.3s ease;
+}
+.color:hover
+{
+        background:#53a7ea;
+}
+/**Mudança de cor*/
+.circle:hover
+{
+        border-radius:50%;
+}
+/**Para arrendondar*/
+.border:hover
+{
+        box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+/** box-shadow é utilizado para adicionar efeitos de sombra em volta de um elemento.*/ 
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+/**O efeitos Fade in é um dos efeitos mais comuns entre os programadores. É uma ótima maneira de enfatizar a funcionalidade ou chamar a atenção para uma chamada à ação. O efeito Fade in é codificado em duas etapas: primeiro, você definir o estado inicial; Em seguida, você define a mudança, utilizando por exemplo o seletor de evento hover*/
+
+
+.grow:hover
+{        
+        transform: scale(1.4);
+}
+/** Para ampliar grow (cresce) aumentar a escala para > 1*/
+.shrink:hover
+{
+         transform: scale(0.8);
+}
+
+/** Para reduzir Shrink (reduzir) aumentar a escala para < 1*/
+
+.rotate:hover
+{
+       
+        transform: rotateZ(-30deg);
+}
+/** Para rotacionar rotate, para alterar o sentido e ângulo de rotação, basta alterar os valores de rotateZ.*/
+
+

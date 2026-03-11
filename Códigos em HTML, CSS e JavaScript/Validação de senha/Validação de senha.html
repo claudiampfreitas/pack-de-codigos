@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Validação de usuários</title>
+<link rel="StyleSheet" href="estilo.css" type="text/css">
+</head>
+<body>
+<fieldset>
+<legend><b>Cadastro de Login</b></legend><br /><br />
+<form name="form1">
+<b>Login:</b>
+<input name="nome" type="text" size="30"><br /><br />
+<b>Senha:</b>
+<input name="senha" type="password" pattern="[A-Za-z] {3} - [0-9] {3}" title="Uma senha válida é composta por 3 letras maiúsculas ou minúsculas, um hífen e três números:">
+<br /><br />
+<!--pattern é validar a partir de uma expressão-->
+<b>Repetir senha:</b>
+<input name="rep_senha" type="password"/><br /><br />
+<b>E-mail:</b>
+<input name="email" type="" placeholder="nome@email.com" required/><br /><br />
+<input class="cadastrar" type="submit" value="Cadastrar" onclick="return validar()"/>
+<input class="cancelar" type="reset" value="Cancelar"/>
+</form>
+</fieldset>
+<script language="javascript" type="text/javascript">
+function validar(){
+var nome=forml.nome.value;
+var senha=forml.senha.value;
+var rep_senha=forml.rep_senha.value;
+var email=forml.email.value;
+if (nome==""){
+alert("Preencha o campo com seu nome");
+forml.nome.focus();
+return false;
+}
+if (nome.length<5){
+alert("Digite um login de no mínimo 4 caracteres");
+forml.nome.focus();
+return false;
+}
+if (senha==""){
+alert("Preencha o campo com a sua senha");
+forml.senha.focus();
+return false;
+}
+pattern="[A-Za-z]{3}-[0-9]{3}" title="Uma senha válida é composta por 3 letras maiúsculas ou minúsculas um hífen e três números."
+}
+if (rep_senha==""){
+alert("Repita a sua senha");
+forml.rep_senha.focus();
+return false;
+}
+if (senha!=rep_senha){
+alert("Senhas diferentes");
+forml.senha.focus();
+return false;
+}
+if (email==""){
+alert("Preencha o campo com seu email");
+forml.email.focus();
+return false;
+}
+if forml.email.indexOf("@")==-1 II
+forml.email.valueOf.indexOf(" . ") -1 II
+forml.email.value==null){
+alert("Por favor, indique um e-amil válido.");
+forml.email.focus();
+return false;
+}
+}
+</script>
+</body>
+</html>

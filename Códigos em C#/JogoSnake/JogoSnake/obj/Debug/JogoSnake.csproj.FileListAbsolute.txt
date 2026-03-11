@@ -1,0 +1,16 @@
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JogoSnake\JogoSnake\obj\Debug\JogoSnake.csprojResolveAssemblyReference.cache
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JogoSnake\JogoSnake\obj\Debug\JogoSnake.MainForm.resources
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JogoSnake\JogoSnake\obj\Debug\JogoSnake.csproj.GenerateResource.Cache
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JogoSnake\JogoSnake\bin\Debug\JogoSnake.exe.config
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JogoSnake\JogoSnake\bin\Debug\JogoSnake.exe
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JogoSnake\JogoSnake\bin\Debug\JogoSnake.pdb
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JogoSnake\JogoSnake\obj\Debug\JogoSnake.exe
+C:\Users\Diogo Freitas\Documents\SharpDevelop Projects\JogoSnake\JogoSnake\obj\Debug\JogoSnake.pdb
+E:\Nova pasta\JogoSnake\JogoSnake\bin\Debug\JogoSnake.exe.config
+E:\Nova pasta\JogoSnake\JogoSnake\bin\Debug\JogoSnake.exe
+E:\Nova pasta\JogoSnake\JogoSnake\bin\Debug\JogoSnake.pdb
+E:\Nova pasta\JogoSnake\JogoSnake\obj\Debug\JogoSnake.csprojResolveAssemblyReference.cache
+E:\Nova pasta\JogoSnake\JogoSnake\obj\Debug\JogoSnake.MainForm.resources
+E:\Nova pasta\JogoSnake\JogoSnake\obj\Debug\JogoSnake.csproj.GenerateResource.Cache
+E:\Nova pasta\JogoSnake\JogoSnake\obj\Debug\JogoSnake.exe
+E:\Nova pasta\JogoSnake\JogoSnake\obj\Debug\JogoSnake.pdb

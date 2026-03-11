@@ -1,0 +1,15 @@
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\listao01\listao01\bin\Debug\listao01.exe
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\listao01\listao01\bin\Debug\listao01.pdb
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\listao01\listao01\obj\Debug\listao01.csprojResolveAssemblyReference.cache
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\listao01\listao01\obj\Debug\listao01.exe
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\listao01\listao01\obj\Debug\listao01.pdb
+C:\Users\claud\Downloads\listao01\listao01\bin\Debug\listao01.exe
+C:\Users\claud\Downloads\listao01\listao01\bin\Debug\listao01.pdb
+C:\Users\claud\Downloads\listao01\listao01\obj\Debug\listao01.csprojResolveAssemblyReference.cache
+C:\Users\claud\Downloads\listao01\listao01\obj\Debug\listao01.exe
+C:\Users\claud\Downloads\listao01\listao01\obj\Debug\listao01.pdb
+E:\Nova pasta\listao01\listao01\bin\Debug\listao01.exe
+E:\Nova pasta\listao01\listao01\bin\Debug\listao01.pdb
+E:\Nova pasta\listao01\listao01\obj\Debug\listao01.csprojResolveAssemblyReference.cache
+E:\Nova pasta\listao01\listao01\obj\Debug\listao01.exe
+E:\Nova pasta\listao01\listao01\obj\Debug\listao01.pdb

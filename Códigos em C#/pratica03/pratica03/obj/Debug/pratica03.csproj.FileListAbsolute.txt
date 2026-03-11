@@ -1,0 +1,10 @@
+E:\Nova pasta\pratica03\pratica03\bin\Debug\pratica03.exe
+E:\Nova pasta\pratica03\pratica03\bin\Debug\pratica03.pdb
+E:\Nova pasta\pratica03\pratica03\obj\Debug\pratica03.csprojResolveAssemblyReference.cache
+E:\Nova pasta\pratica03\pratica03\obj\Debug\pratica03.exe
+E:\Nova pasta\pratica03\pratica03\obj\Debug\pratica03.pdb
+C:\Users\claud\Documents\pratica03\pratica03\bin\Debug\pratica03.exe
+C:\Users\claud\Documents\pratica03\pratica03\bin\Debug\pratica03.pdb
+C:\Users\claud\Documents\pratica03\pratica03\obj\Debug\pratica03.csprojResolveAssemblyReference.cache
+C:\Users\claud\Documents\pratica03\pratica03\obj\Debug\pratica03.exe
+C:\Users\claud\Documents\pratica03\pratica03\obj\Debug\pratica03.pdb

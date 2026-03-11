@@ -1,0 +1,10 @@
+C:\Users\claud\Documents\SharpDevelop Projects\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\bin\Debug\ExerciciosAnaliseSistemas.exe
+C:\Users\claud\Documents\SharpDevelop Projects\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\bin\Debug\ExerciciosAnaliseSistemas.pdb
+C:\Users\claud\Documents\SharpDevelop Projects\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\obj\Debug\ExerciciosAnaliseSistemas.csprojResolveAssemblyReference.cache
+C:\Users\claud\Documents\SharpDevelop Projects\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\obj\Debug\ExerciciosAnaliseSistemas.exe
+C:\Users\claud\Documents\SharpDevelop Projects\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\obj\Debug\ExerciciosAnaliseSistemas.pdb
+E:\Nova pasta\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\bin\Debug\ExerciciosAnaliseSistemas.exe
+E:\Nova pasta\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\bin\Debug\ExerciciosAnaliseSistemas.pdb
+E:\Nova pasta\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\obj\Debug\ExerciciosAnaliseSistemas.csprojResolveAssemblyReference.cache
+E:\Nova pasta\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\obj\Debug\ExerciciosAnaliseSistemas.exe
+E:\Nova pasta\ExerciciosAnaliseSistemas\ExerciciosAnaliseSistemas\obj\Debug\ExerciciosAnaliseSistemas.pdb

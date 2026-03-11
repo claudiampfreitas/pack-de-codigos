@@ -1,0 +1,158 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+img{
+border: none;
+height:150px;
+width: 377px;
+}
+
+body{
+font-family: Arial;
+font-size: 14px;
+text-align:justify;
+}
+
+p{
+text-indent:50px;
+}
+
+#photobox img{
+	margin-right:5px;
+	border: 1px solid black;
+	height:98px;
+	width:118.5px;
+}
+	
+header h1{
+display: inline-block;
+}
+
+header{
+background-color: black;
+height: 50px;
+width: 100%;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+z-index: 100;
+border-bottom: 0px solid #C10021;
+}
+
+header h1 a{
+font-family: impact;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 28px;
+position:absolute;
+top:8px;
+left: 35px;
+}
+
+#adbanner{
+margin-top: 30px;
+padding-bottom: 80px;
+height: 50px;
+width:102%;
+font-size:35px;
+font-weight:bold;
+color:#ffffff;
+opacity:80%;
+background:url('images/banner.jpeg');
+border-bottom: 1px solid #c3c3c3;
+}
+
+section{
+margin:50px;
+margin: auto;
+margin-left: 30px;
+}
+
+#secwrapper{
+padding-top: 15px;
+}
+
+article{
+width: 377px;
+height:340px;
+margin-right: 25px;
+margin-left: 20px;
+display: inline-block;
+vertical-align: top;
+border: 1px solid #c8c8c8;
+margin-bottom: 20px;
+padding: 9px;
+border-radius: 3px;
+box-shadow: 0 2px 3px #ccc;
+background-color: white;
+}
+
+.readmore{
+background-color: black;
+padding: 5px 10px;
+color: white;
+text-decoration: none;
+border-radius: 3px;
+display: inline-block;
+}
+
+.readmore:hover{
+background-color: #A9A9A9;
+}
+
+article p{
+margin-bottom: 7px;
+}
+
+footer{
+background-color: black;
+height: 28px;
+color: white;
+padding: 10px;
+padding-bottom:65px;
+}
+
+footer p{
+margin: 5px 0 0 12%;
+}
+
+@media(max-width: 800px){
+article{
+width: 577px;
+margin-right: 25px;
+margin-left: 20px;
+display: inline-block;
+vertical-align: top;
+border: 1px solid #c8c8c8;
+margin-bottom: 20px;
+padding: 9px;
+border-radius: 3px;
+box-shadow: 0 2px 3px #ccc;
+background-color: white;
+}
+
+img{
+border: none;
+height:300px;
+width: 577px;
+}
+
+#adbanner{
+margin-top: 30px;
+padding-bottom: 80px;
+height: 50px;
+width:102%;
+font-size:25px;
+font-weight:bold;
+color:#ffffff;
+opacity:80%;
+background:url('images/banner.jpeg');
+border-bottom: 1px solid #c3c3c3;
+}
+}

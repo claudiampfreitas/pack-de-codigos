@@ -1,0 +1,209 @@
+<html>
+<head>
+<style>
+
+input[type=button] 
+{
+background-color: #DDA0DD;
+border: none;
+color: black;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 32px;
+width:100%;
+padding-right:40px;
+height:100%;
+cursor: pointer;
+box-shadow: 3px 3px 3px black;
+}
+
+input[type="text"]
+{
+width:100%;
+height:100%;
+text-align: right;
+text-decoration: none;
+display: inline-block;
+font-size: 32px;
+font-weight:bold;
+text-align: left;
+cursor: pointer;
+background-color:#FFC0CB;
+box-shadow: 3px 3px 3px black;
+}
+
+body
+{
+background-color: #D4D7DB;
+}
+
+table 
+{
+background-color: #4B0082;
+padding: 5px 5px;
+width:90%;
+height:90%;
+}
+
+</style>
+
+<script type="text/javascript">
+
+var numpantalla="0";
+var pantallaconnumero="si"; //Si o No
+var usarpunto="no"; //Si o No
+var numespera=0;
+var operapendiente="";
+var solucion="";
+
+function ingresarnumero(x)
+{
+if(x!=".")
+{
+
+	if(numpantalla=="0" || pantallaconnumero=="si")
+		{
+			document.Calculadora.txtboxnros.value=x;
+			numpantalla=x;
+		}
+	else if(x!=".")
+		{
+			document.Calculadora.txtboxnros.value+=x;
+			numpantalla+=x;
+		}
+}
+
+if(x=="." && usarpunto=="no" && numpantalla=="0")
+	{
+		document.Calculadora.txtboxnros.value="0.";
+		numpantalla=x;
+		usarpunto="si";
+	}	
+else if(x=="." && usarpunto=="no")
+	{
+
+		document.Calculadora.txtboxnros.value +=x;
+		numpantalla +=x;
+		usarpunto="si";
+	}
+else if(x=="." && usarpunto=="si")
+{
+
+}
+	pantallaconnumero="no";
+}
+
+function ingresaoperacion(y)
+{
+if(operapendiente =="")
+{
+
+numespera=document.Calculadora.txtboxnros.value;
+document.Calculadora.txtboxnros.value +=y;
+operapendiente = y;
+pantallaconnumero = "no";
+numpantalla = "";
+usarpunto = "no";
+_
+}
+
+}
+
+function resultado()
+{
+
+if(operapendiente != "") 
+{
+solucion=numespera+operapendiente+numpantalla;
+document.Calculadora.txtboxnros.value=eval(solucion);
+numpantalla=eval(solucion);
+pantallaconnumero="si";
+operapendiente = "";
+usarpunto = "no";
+
+}
+
+}
+
+function raiz()
+{
+
+if(operapendiente == "")
+{
+document.Calculadora.txtboxnros.value=Math.sqrt(numpantalla);
+pantallaconnumero = "no";
+operapendiente = "";
+usarpunto = "no";
+}
+}
+
+function limpiar()
+{
+
+ numpantalla="0";
+ pantallaconnumero="si";
+ usarpunto="no"; 
+ numespera=0;
+ operapendiente="";
+ solucion="";
+document.Calculadora.txtboxnros.value="0";
+}
+
+
+
+
+
+
+
+</script>
+</head>
+<body>
+<center>
+
+<form name="Calculadora">
+
+<table border="3">
+
+<tr>
+<td colspan="5">
+<input type="text" name="txtboxnros" value="0" disabled>
+</td></tr>
+
+<tr>
+<td><input type="button" value="1" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="2" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="3" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="+" onclick="ingresaoperacion(this.value)"></td>
+<td><input type="button" value="-" onclick="ingresaoperacion(this.value)"></td>
+</tr>
+
+<tr>
+<td><input type="button" value="4" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="5" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="6" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="*" onclick="ingresaoperacion(this.value)"></td>
+<td><input type="button" value="/" onclick="ingresaoperacion(this.value)"></td>
+</tr>
+
+<tr>
+<td><input type="button" value="7" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="8" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="9" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="^" onclick="ingresaoperacion('**')"></td>
+<td><input type="button" value="√" onclick="raiz()"></td>
+</tr>
+
+<tr>
+<td><input type="button" value="0" onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="." onclick="ingresarnumero(this.value)"></td>
+<td><input type="button" value="C" onclick="limpiar()"></td>
+<td colspan="2"><input type="button" value="      =      " onclick="resultado()"></td>
+</tr>
+
+</table>
+</form>
+</center>
+</body>
+</html>

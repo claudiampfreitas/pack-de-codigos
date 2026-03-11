@@ -1,0 +1,17 @@
+﻿body{background-color:#000000;}
+
+	p{font-family:arial;
+	font-size:16px;
+	text-align:justify;
+	text-indent:50px;
+	color:#ffffff;}
+	
+	h1,h2,title{color:#ffffff;
+	font-family:arial;}
+	
+	img{height:150px;
+	width:250px;}
+	border-color:#993399;
+	border: 20px groove purple;
+	}
+	

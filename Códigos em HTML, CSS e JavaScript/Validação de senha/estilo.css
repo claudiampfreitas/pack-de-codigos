@@ -1,0 +1,54 @@
+﻿*
+{
+	margin:0;
+	padding:0;
+}
+
+fieldset{
+	margin:70px;
+	padding-bottom:30px;
+	margin-right:400px;
+	margin-left:400px;
+	padding-left:20px;
+	height:300px;
+	width:35%;
+	border: 6px solid #4B0082;
+	background:linear-gradient(to top, #BA55D3, #DA70D6);
+}
+
+.cadastrar, .cancelar{
+	font-size:20px;
+	font-weight:bold;
+	font-family:arial;
+	padding:5px;
+	background-color:#008080;
+	color:#ffffff;
+	border-radius:20px;
+}
+
+p{
+	text-align:justify;
+}
+
+legend{
+	font-size:20px;
+	font-family:arial;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+body{
+	background-color:#87CEEB;
+}
+
+input{
+	font-size:20px;
+	background-color:#EEE8AA;
+}
+
+form{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:20px;
+	font-family:arial;
+}

@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Aula de JS - POLIMIG</title>
+<link rel="stylesheet" type="text/css" href="estilocalcompleta.css">
+</head>
+<body>
+<center>
+<br /><br />
+<form name="Calculadora" id="formatacalc">
+<table border="1">
+<!-- Linha 1 -->
+<th colspan="4">
+<input class="display" type="text" name="input" style="text-align:right">
+</th>
+<!-- Linha 2 -->
+<tr>
+<td>
+<input type="button" name="par1" value=" ( " onclick="Calculadora.input.value +='('">
+</td>
+<td>
+<input type="button" name="par2" value=" ) " onclick="Calculadora.input.value +=')'">
+</td>
+<td>
+<input type="button" name="clear" value=" C " onclick="Calculadora.input.value = ''">
+</td>
+<td>
+<input type="button" name="somar" value=" + " onclick="Calculadora.input.value +='+'">
+</td>
+</tr>
+<!-- Linha 3 -->
+<tr>
+<td>
+<input type="button" name="um" value=" 1 " onclick="Calculadora.input.value +='1'">
+</td>
+<td>
+<input type="button" name="dois" value=" 2 " onclick="Calculadora.input.value +='2'">
+</td>
+<td>
+<input type="button" name="tres" value=" 3 " onclick="Calculadora.input.value +='3'">
+</td>
+<td>
+<input type="button" name="menos" value=" - " onclick="Calculadora.input.value +='-'">
+</td>
+</tr>
+<!-- Linha 4 -->
+<tr>
+<td>
+<input type="button" name="quatro" value=" 4 " onclick="Calculadora.input.value +='4'">
+</td>
+<td>
+<input type="button" name="cinco" value=" 5 " onclick="Calculadora.input.value +='5'">
+</td>
+<td>
+<input type="button" name="seis" value=" 6 " onclick="Calculadora.input.value +='6'">
+</td>
+<td>
+<input type="button" name="times" value=" * " onclick="Calculadora.input.value +='*'">
+</td>
+</tr>
+<!-- Linha 5 -->
+<tr>
+<td>
+<input type="button" name="sete" value=" 7 " onclick="Calculadora.input.value +='7'">
+</td>
+<td>
+<input type="button" name="oito" value=" 8 " onclick="Calculadora.input.value +='8'">
+</td>
+<td>
+<input type="button" name="nove" value=" 9 " onclick="Calculadora.input.value +='9'">
+</td>
+<td>
+<input type="button" name="div" value=" / " onclick="Calculadora.input.value +='/'">
+</td>
+</tr>
+<!-- Linha 6 -->
+<tr>
+<td>
+<input type="button" name="zero" value=" 0 " onclick="Calculadora.input.value +='0'">
+</td>
+<td>
+<input type="button" name="ponto" value=" . " onclick="Calculadora.input.value +='.'">
+</td>
+<td>
+<input class="igual" type="button" name="igual" value=" = " onclick="Calculadora.input.value = eval(Calculadora.input.value)">
+<!--O método eval() avalia código JavaScript representado como uma string. JavaScript avalia expressões aritméticas automaticamente.-->
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
